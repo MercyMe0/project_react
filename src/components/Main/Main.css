@@ -1,0 +1,73 @@
+.container2{
+    margin-top: 0px;
+	--units: 1.5vmax;
+	--brick1: #CC0000;
+	--brick2: #DD0000;
+	--lines: #565656;
+	--gp-ln: 50%/calc(var(--units) * 10) calc(var(--units) * 5);
+	--gp-cn: 50%/calc(var(--units) * 5) calc(var(--units) * 5);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+	background: 
+		repeating-conic-gradient(from 90deg at 95% 55%, var(--lines) 0% 25%, #fff0 0% 100%) var(--gp-cn), 
+		repeating-linear-gradient(180deg, var(--lines) 0 5%, #fff0 0 50%, var(--lines) 0 55%, var(--brick2) 0 100% ) var(--gp-ln), 
+		repeating-linear-gradient(90deg, var(--brick1) 0 47.5%, var(--lines) 0 50%, var(--brick1) 0 97.5%, var(--lines) 0 100% ) var(--gp-ln);
+}
+
+.mainPhotos{
+    display: flex;
+    /* justify-content: space-around; */
+    
+
+}
+
+.herePhoto{
+    width: 325px;
+    height: 325px;
+    border-radius: 30%;  /* Скругление углов изображения */
+    margin-top: 10px;
+    margin-left: 25px;
+  
+    
+}
+
+.trainsPhoto{
+    width: 325px;
+    height: 325px;
+    border-radius: 30%;  /* Скругление углов изображения */
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.artemsPhoto{
+    width: 325px;
+    height: 325px;
+    border-radius: 30%;  /* Скругление углов изображения */
+    margin-top: 70px;
+    margin-left: 60px;
+    
+}
+
+.sovetsPhoto{
+    width: 325px;
+    height: 325px;
+    border-radius: 30%;   
+    margin-top: 10px;
+    margin-left: 40px;
+
+    
+}
+ 
+
+.mainH{
+    width: 53.1%;
+    margin-left: 400px;
+    color: white;
+    /* color: rgb(175,238,238); */
+    opacity: 85%;
+    text-shadow: 3px 3px black;
+    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+    background-color: orange
+    
+}

@@ -1,0 +1,19 @@
+.chatWrap{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 400px; */
+    /* margin-top: 100px; */
+    background-color: #ffffde;
+    width: 100%;
+    height: 100vh;
+    color: black;
+}
+
+.CommentsChat{
+    margin-top: 50px;
+}
+
+.chatBlocks{
+    margin-top: 50px;
+    margin-left: 200px;
+}
